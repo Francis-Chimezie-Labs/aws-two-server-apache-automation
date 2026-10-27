@@ -584,6 +584,17 @@ AWS API
 EC2 Status Monitoring
 ```
 
+## Operational Validation
+
+After deployment, the environment can be validated using a combination of Terraform, Ansible, HTTP checks, and Python automation.
+
+### Infrastructure Validation
+
+Terraform can be used to confirm the resources being managed:
+
+```bash
+terraform state list
+
 ---
 
 ## Author
